@@ -1,0 +1,88 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+  }
+  .title-text{
+    margin: 40px 0px 30px 0px;
+    color: #003F73;
+  }
+  .inputs{
+   background-color: #C2E3FF;
+  }
+  .submit-btn{
+    margin-top: 15px;
+    background-color: #C2E3FF;
+    border-radius: 5px;
+    margin-bottom: 50px;
+  }
+  
+  .graph-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .bar-graph{
+    width: 70px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    background-color:#C2E3FF;
+  }
+  .bar-graph-1{
+   
+        width: 70px;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+        background-color:#C2E3FF;
+    
+  }
+  .pie-chart {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color:#C2E3FF;
+    overflow: hidden;
+  }
+  .pie-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #007bff;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+    transition: transform 0.5s ease;
+  }
+.bar-fill {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color:#008Cff;
+        transition: height 0.5s ease;
+      }
+     
+     
+.bar-fill-1 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(to top,#008Cff, #C2E3FF);
+        transition: height 0.5s ease;
+      }
+      
+  .level-text{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: #003F73;
+  }
+  
